@@ -1,3 +1,4 @@
+# Gather User's Maya preferences and recently opened files lists without using Maya
 import os
 
 
