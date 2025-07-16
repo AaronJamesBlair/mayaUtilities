@@ -1,7 +1,5 @@
 # Various machines on the same network with the same installation methods store out referenced "Fbx" files with different strings
 # Not all machines can read the different strings and crash during file load, unless  using '-typ "FBX Export"' which seems to be universal
-
-from stat import S_IWUSR, S_IREAD
 import maya.cmds as mc
 import os
 
